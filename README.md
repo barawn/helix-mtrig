@@ -30,7 +30,7 @@ HELIX Master Trigger
 | TTEAALJANF-40 |	1	| 3.3	| 0.006	| 0.0198 |
 | SN65MLVD128	| 1	| 3.3 |	0.112	| 0.3696 |
 
-Total so far ~5.5W. FPGA estimate coming soon.
+Total so far ~6.6W. FPGA estimate coming soon.
 
 Power excludes all devices expected to be powered down during flight (PCIe, USB debug, etc.).
 
