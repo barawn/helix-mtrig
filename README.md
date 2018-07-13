@@ -19,7 +19,9 @@ HELIX Master Trigger
 
 | Chip | Qty | Rail |	Current |	Power |
 | ---- | --- | ---- | ------- | ----- | 
-| SN65LVDS100 |	62 |	2.5 |	0.025 |	3.875 |
+| SN65LVDS100 |	22 |	3.3 |	0.02834 |	2.057 |
+| FIN1101 | 14 | 3.3 | 0.0126 | 0.58212 |
+| DS15BR400 | 4 | 3.3 | 0.175 | 2.31 |
 | SI5395 core |	1  |	1.8	| 0.135	| 0.243 |
 | SI5395 core	| 1  |	3.3	| 0.12	| 0.396 |
 | SI5395 output |	10 | 2.5 |	0.015	| 0.375 |
@@ -28,7 +30,7 @@ HELIX Master Trigger
 | TTEAALJANF-40 |	1	| 3.3	| 0.006	| 0.0198 |
 | SN65MLVD128	| 1	| 3.3 |	0.112	| 0.3696 |
 
-Total so far ~5.5W. FPGA estimate coming soon.
+Total so far ~6.6W. FPGA estimate coming soon.
 
 Power excludes all devices expected to be powered down during flight (PCIe, USB debug, etc.).
 
