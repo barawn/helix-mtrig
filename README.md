@@ -14,8 +14,11 @@ HELIX Master Trigger
 * Trigger output (~2.5V logic high into 50 ohms)
 * USB JTAG/debug console
 * External PCIe x4 interface for proxy master merger use
+* 5x GPIOs for general use
 
 ## Power consumption
+
+This is out of date.
 
 | Chip | Qty | Rail |	Current |	Power |
 | ---- | --- | ---- | ------- | ----- | 
@@ -36,7 +39,7 @@ Power excludes all devices expected to be powered down during flight (PCIe, USB 
 
 ## Clocks
 
-* 50 MHz local oscillator
+* 200 MHz local oscillator
 * 40 MHz VCTCXO master HELIX clock
 * 100 MHz auxiliary PCIe clock
 
@@ -45,7 +48,6 @@ Power excludes all devices expected to be powered down during flight (PCIe, USB 
 * 40 MHz -> 10x TOF + FPGA (SI5395)
 * 40 MHz -> 80 MHz -> MGT + FPGA (SI5395)
 * 125 MHz PCIe -> 250 MHz PCIe (ICS874003I-02)
-* 50 MHz -> 200 MHz (internal to FPGA)
 
 ## FPGA
 
@@ -53,9 +55,4 @@ Artix-7 200T in 676-pin package.
 
 ## Status
 
-* Schematic ~done, excepting FPGA connections
-* Layout in progress
-
-## TO DO
-
-* Replace aux PCIe clock with one that shuts down
+* Complete, ready for review.
