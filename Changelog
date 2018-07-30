@@ -5,4 +5,5 @@
 * 7/24/18: Final schematic, layout complete.
 * 7/30/18: Fix U2 footprint (top/bottom pins were wrong size).
            Move V5/V10 to topside for easier heatsinking.
-           Add top layer ground pour around crystal shield. 
+           Add top layer ground pour around crystal shield.
+           Fix U70/U68/R137/R139 refdes. 
