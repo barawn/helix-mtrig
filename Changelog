@@ -3,3 +3,6 @@
 * 6/14/18: Switched LVDS buffers to a combination of DS15BR400 (for powerdown capability) and FIN1101 (cost/power).
 * 7/13/18: Near-final schematic...
 * 7/24/18: Final schematic, layout complete.
+* 7/30/18: Fix U2 footprint (top/bottom pins were wrong size).
+           Move V5/V10 to topside for easier heatsinking.
+           Add top layer ground pour around crystal shield. 
