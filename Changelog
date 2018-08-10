@@ -8,4 +8,11 @@
            Add top layer ground pour around crystal shield.
            Fix U70/U68/R137/R139 refdes.
            Fix U76 refdes.
-           Fix C47 refdes and a few missing FPGA decoupling cap labels. 
+           Fix C47 refdes and a few missing FPGA decoupling cap labels.
+* 8/10/18: Realign U68 to make Ian happy.
+           Fix meanders in a few places where PADS is a pain in the neck.
+           Fix a few 0402 resistor/cap spacings where they were too close (based on physical mock)
+           Fix missing solder mask opening on bottom (based on physical mock)
+           Add a copper pour near the front of the Mini-SAS HD connectors for the springs to make contact
+           with (based on physical mock).
+            
