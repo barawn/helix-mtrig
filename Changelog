@@ -15,4 +15,8 @@
            Fix missing solder mask opening on bottom (based on physical mock)
            Add a copper pour near the front of the Mini-SAS HD connectors for the springs to make contact
            with (based on physical mock).
-            
+* 8/14/18: Add V9/R48/CX260, voltage reference option for VCTCXO.
+           Fix U10 (ATRG fanout) enable pin connections (connect 1,2,4,6,8, leave 3,5,7 unused)
+           Add R190/R192/R193 for input voltage lockouts (only turn on for 3.48 < Vin < 5.69 )
+           Add copper keep-outs near edge of board to ensure return currents flow through supplies.
+           Changed board-to-copper clearance to 8 mil (Bittele spec), moved stitching vias to accomodate.            
