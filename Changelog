@@ -20,4 +20,6 @@
            Add R190/R192/R193 for input voltage lockouts (only turn on for 3.48 < Vin < 5.69 )
            Add copper keep-outs near edge of board to ensure return currents flow through supplies.
            Changed board-to-copper clearance to 8 mil (Bittele spec), moved stitching vias to accomodate.
-           Moved copper keep-out on the top in a bit to keep 3.3V connectivity better.            
+           Moved copper keep-out on the top in a bit to keep 3.3V connectivity better.
+* 8/14/18: Added external auxiliary clock input (J22).
+           Added alternate clock input to clock synthesizer from FPGA (nominally unused and driven low).            
