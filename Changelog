@@ -23,4 +23,7 @@
            Moved copper keep-out on the top in a bit to keep 3.3V connectivity better.
 * 8/14/18: Added external auxiliary clock input (J22).
            Added alternate clock input to clock synthesizer from FPGA (nominally unused and driven low).
-           Moved auxiliary clock input to an actual clock input on the FPGA.            
+           Moved auxiliary clock input to an actual clock input on the FPGA.
+* 8/15/18: Moved copper keepout on the top a bit more to keep L6 connectivity.
+           Flooded L3 with ground to increase copper balance.
+           Stitched ground everywhere at 250 mil staggered spacing.            
